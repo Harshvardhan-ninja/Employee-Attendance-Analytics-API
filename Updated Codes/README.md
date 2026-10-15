@@ -135,4 +135,51 @@ Test cases should cover:
 - Attendance corrections and history
 - Department summaries and leaderboard ties
 
-The provided sample
+The provided sample dataset is intended for initial testing. The grader may include additional cases not present in the samples.
+
+## Technology Stack
+
+- Python
+- FastAPI
+- Uvicorn
+- MongoDB
+- PyMongo
+- python-dotenv
+- Swagger UI / OpenAPI
+
+## Important Files
+
+- `PROBLEM_STATEMENT.docx` — assessment instructions and evaluation criteria
+- `openapi.yaml` — API contract and business rules
+- `DATA_MODEL.md` — database schema and sample documents
+- `app/main.py` — API implementation
+- `sample_seed.py` — sample data loader
+- `REVIEW.md` — implementation review
+- `DECISIONS.md` — design decisions and trade-offs
+
+## Security and Configuration
+
+- Never commit `.env` or credentials.
+- Keep `.env.example` free of real secrets.
+- Do not commit virtual environments or generated cache files.
+- Validate input and handle database errors appropriately.
+
+## Submission
+
+Submit a public Git repository containing the required implementation and documentation:
+
+- `app/main.py`
+- `requirements.txt`
+- `README.md`
+- `REVIEW.md`
+- `DECISIONS.md`
+
+Include other assessment files as required by the evaluator. Follow the original submission instructions, which explicitly prohibit including a Dockerfile.
+
+## Future Improvements
+
+- Docker-based development environment, if permitted by the assessment
+- Automated unit and integration tests
+- Authentication and role-based access control
+- Query performance optimization and monitoring
+- Deployment with production configuration and logging
