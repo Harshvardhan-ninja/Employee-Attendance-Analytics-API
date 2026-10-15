@@ -1,0 +1,267 @@
+[{
+  "_id": {
+    "$oid": "6ad0cf9a225a6a309bfa343b"
+  },
+  "emp_code": "EMP0001",
+  "date": "2026-10-03",
+  "status": "PRESENT",
+  "punch_in": {
+    "$date": "2026-10-03T01:30:00.000Z"
+  },
+  "punch_out": {
+    "$date": "2026-10-03T10:30:00.000Z"
+  },
+  "work_hours": 9,
+  "late_minutes": 0,
+  "overtime_minutes": 0,
+  "half_day": false,
+  "history": [
+    {
+      "at": {
+        "$date": "2026-10-15T13:05:30.000Z"
+      },
+      "by": "HR001",
+      "reason": "Approved Leave",
+      "changes": {
+        "status": "ABSENT"
+      }
+    },
+    {
+      "at": {
+        "$date": "2026-10-15T13:30:16.000Z"
+      },
+      "by": "HR0001",
+      "reason": "Attendance correction",
+      "changes": {
+        "status": "PRESENT",
+        "punch_in": {
+          "$date": "2026-10-03T01:30:00.000Z"
+        },
+        "punch_out": {
+          "$date": "2026-10-03T10:30:00.000Z"
+        }
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ad0d04b225a6a309bfa343c"
+  },
+  "emp_code": "EMP0001",
+  "date": "2026-10-15",
+  "status": "PRESENT",
+  "punch_in": {
+    "$date": "2026-10-15T13:08:27.000Z"
+  },
+  "punch_out": {
+    "$date": "2026-10-15T13:18:33.000Z"
+  },
+  "work_hours": 0.17,
+  "late_minutes": 548,
+  "overtime_minutes": 0,
+  "half_day": true,
+  "history": []
+},
+{
+  "_id": {
+    "$oid": "6ad0d06d225a6a309bfa343d"
+  },
+  "emp_code": "EMP0010",
+  "date": "2026-10-15",
+  "status": "WFH",
+  "punch_in": {
+    "$date": "2026-10-15T13:09:01.000Z"
+  },
+  "punch_out": null,
+  "work_hours": null,
+  "late_minutes": 549,
+  "overtime_minutes": 0,
+  "half_day": false,
+  "history": []
+},
+{
+  "_id": {
+    "$oid": "6ad0e2fe9e4282d786b90d2e"
+  },
+  "emp_code": "EMP0007",
+  "date": "2026-07-06",
+  "status": "PRESENT",
+  "punch_in": {
+    "$date": "2026-07-06T03:58:00.000Z"
+  },
+  "punch_out": {
+    "$date": "2026-07-06T13:05:00.000Z"
+  },
+  "work_hours": 9.12,
+  "late_minutes": 0,
+  "overtime_minutes": 0,
+  "half_day": false,
+  "history": []
+},
+{
+  "_id": {
+    "$oid": "6ad0e2fe9e4282d786b90d2f"
+  },
+  "emp_code": "EMP0003",
+  "date": "2026-07-06",
+  "status": "PRESENT",
+  "punch_in": {
+    "$date": "2026-07-06T04:35:00.000Z"
+  },
+  "punch_out": {
+    "$date": "2026-07-06T13:40:00.000Z"
+  },
+  "work_hours": 9.08,
+  "late_minutes": 35,
+  "overtime_minutes": 40,
+  "half_day": false,
+  "history": []
+},
+{
+  "_id": {
+    "$oid": "6ad0e2fe9e4282d786b90d30"
+  },
+  "emp_code": "EMP0006",
+  "date": "2026-07-07",
+  "status": "PRESENT",
+  "punch_in": {
+    "$date": "2026-07-07T04:05:00.000Z"
+  },
+  "punch_out": null,
+  "work_hours": null,
+  "late_minutes": 0,
+  "overtime_minutes": 0,
+  "half_day": false,
+  "history": []
+},
+{
+  "_id": {
+    "$oid": "6ad0e2fe9e4282d786b90d31"
+  },
+  "emp_code": "EMP0004",
+  "date": "2026-07-07",
+  "status": "WFH",
+  "punch_in": {
+    "$date": "2026-07-07T04:00:00.000Z"
+  },
+  "punch_out": {
+    "$date": "2026-07-07T07:30:00.000Z"
+  },
+  "work_hours": 3.5,
+  "late_minutes": 0,
+  "overtime_minutes": 0,
+  "half_day": true,
+  "history": []
+},
+{
+  "_id": {
+    "$oid": "6ad0e2fe9e4282d786b90d32"
+  },
+  "emp_code": "EMP0004",
+  "date": "2026-07-08",
+  "status": "ABSENT",
+  "punch_in": null,
+  "punch_out": null,
+  "work_hours": null,
+  "late_minutes": 0,
+  "overtime_minutes": 0,
+  "half_day": false,
+  "history": []
+},
+{
+  "_id": {
+    "$oid": "6ad0e2fe9e4282d786b90d33"
+  },
+  "emp_code": "EMP0003",
+  "date": "2026-07-08",
+  "status": "LEAVE",
+  "punch_in": null,
+  "punch_out": null,
+  "work_hours": null,
+  "late_minutes": 0,
+  "overtime_minutes": 0,
+  "half_day": false,
+  "history": []
+},
+{
+  "_id": {
+    "$oid": "6ad0e2fe9e4282d786b90d34"
+  },
+  "emp_code": "EMP0005",
+  "date": "2026-07-06",
+  "status": "PRESENT",
+  "punch_in": {
+    "$date": "2026-07-06T16:25:00.000Z"
+  },
+  "punch_out": {
+    "$date": "2026-07-07T01:10:00.000Z"
+  },
+  "work_hours": 8.75,
+  "late_minutes": 0,
+  "overtime_minutes": 40,
+  "half_day": false,
+  "history": []
+},
+{
+  "_id": {
+    "$oid": "6ad0e2fe9e4282d786b90d35"
+  },
+  "emp_code": "EMP0001",
+  "date": "2026-07-07",
+  "status": "PRESENT",
+  "punch_in": {
+    "$date": "2026-07-07T03:58:00.000Z"
+  },
+  "punch_out": {
+    "$date": "2026-07-07T13:00:00.000Z"
+  },
+  "work_hours": 9.03,
+  "late_minutes": 0,
+  "overtime_minutes": 0,
+  "half_day": false,
+  "history": [
+    {
+      "at": {
+        "$date": "2026-07-08T05:00:00.000Z"
+      },
+      "by": "hr.admin",
+      "reason": "biometric glitch",
+      "changes": {
+        "punch_in": {
+          "from": {
+            "$date": "2026-07-07T04:35:00.000Z"
+          },
+          "to": {
+            "$date": "2026-07-07T03:58:00.000Z"
+          }
+        },
+        "late_minutes": {
+          "from": 35,
+          "to": 0
+        },
+        "work_hours": {
+          "from": 8.42,
+          "to": 9.03
+        }
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ad0e2fe9e4282d786b90d36"
+  },
+  "emp_code": "EMP0002",
+  "date": "2026-07-14",
+  "status": "PRESENT",
+  "punch_in": {
+    "$date": "2026-07-14T04:02:00.000Z"
+  },
+  "punch_out": {
+    "$date": "2026-07-14T13:01:00.000Z"
+  },
+  "work_hours": 8.98,
+  "late_minutes": 0,
+  "overtime_minutes": 0
+}]
